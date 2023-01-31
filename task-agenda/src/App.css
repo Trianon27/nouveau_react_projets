@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.html,
+body{
+    color: #fff;
+    background-color: #1b1b32;
+    font-family: Lato, sans-serif;
+    margin-top: 40px;
+}
+
+h1{
+    color: #1b1b32;
+    font-size: 25px;
+    font-family: roboto, sans-serif;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.tasks-aplication{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}   
+
+.tasks-principal-list{
+    width: 600px;
+    min-height: 500px;
+    background-color: #d0d0d5;
+    padding: 25px;
+    margin: 10px;
+    justify-content: center;
+    border-radius: 26px;
+}

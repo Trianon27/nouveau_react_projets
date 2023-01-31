@@ -1,0 +1,48 @@
+.testimony-container{
+    max-width: 1170px;
+    width: 100%;
+    height: fit-content;
+    margin: 10px 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 3px 13px 1px rgba(0 0 0 / 9%);
+}
+
+.testimony-image{
+    height: 100%;
+    width: auto;
+}
+
+.text-testimony-container{
+    text-align: center;
+    padding: 40px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.testimony-name{
+    font-size: 1.3rem;
+}
+
+.charge-testimony{
+    font-size: 1.3rem;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+
+.testimony-text{
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 840px) {
+    .testimony-container{
+        flex-direction: column;
+        max-width: 350px;
+        
+    }
+}
